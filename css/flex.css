@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+
+.container-1 {
+    border: 5px solid navy;
+    height: 500px;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#child1 {
+    border: 2px solid red;
+    order: 2;
+    flex-grow: 0;
+}
+
+#child2 {
+    border: 2px solid green;
+    order: 1;
+    flex-grow: 0;
+    align-self: flex-start;
+}
