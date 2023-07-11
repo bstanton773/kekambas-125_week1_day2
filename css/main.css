@@ -224,12 +224,32 @@ div[title*="s"] {
 /* CSS POSITIONS */
 
 /* position: relative - positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position */
+.position-border {
+   border: 5px solid blue;
+   height: 150vh; 
+   position: relative;
+   top: 200px;
+   left: 20px;
+}
 
 /* position: fixed - positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled */
+/* #img-1 {
+    position: fixed;
+    top: 25vh;
+} */
 
+/* position: absolute -  positioned relative to the nearest positioned ancestor */
 
-/* position: fixed -  positioned relative to the nearest positioned ancestor */
+/* #img-1 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+} */
 
 
 /* position: sticky -  positioned based on the user's scroll position - toggles between relative and fixed, depending on the scroll position */
+#img-2{
+    position: sticky;
+    top: 150px;
+}
 
