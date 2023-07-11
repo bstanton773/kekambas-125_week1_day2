@@ -21,6 +21,17 @@ Box Model is made up of 4 parts: Content, Padding, Border, Margin
     Border - A border that goes around the padding and content
     Margin - Clears an area outside the border. The margin is transparent
 */
+.box-model {
+    border: 5px solid orange;
+    padding: 25px;
+    margin: 20px;
+}
+
+/* 
+Total Size:
+    Height: 100px (Content) + 2*25px (Padding) + 2*5px (Border) + 2*20px (Margin) = 200px
+    Width: 300px (Content) + 2*25px (Padding) + 2*5px (Border) + 2*20px (Margin) = 400px
+ */
 
 
 
