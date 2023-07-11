@@ -26,3 +26,17 @@ body {
     flex-grow: 0;
     align-self: flex-start;
 }
+
+
+.container-2 {
+    border: 5px solid yellow;
+    height: 800px;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: space-evenly; */
+    column-gap: 10px;
+}
