@@ -1,4 +1,8 @@
 /* Universal Selector */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 
 /* The asterisk is the universal selector - will select all elements */
 
@@ -192,13 +196,29 @@ div[title*="s"] {
 
 /* CSS DISPLAYS */
 
+.block-level {
+    border: 5px solid black;
+}
 
+.block-level > h3 {
+    border: 3px solid magenta;
+    /* override the default of display: block */
+    display: inline; 
+}
+
+#displays a {
+    border: 3px solid darkgoldenrod;
+}
 
 /* 
     Display: None
     Used to hide an element. Commonly used with JavaScript 
 */
 
+#middle {
+    border: 3px solid darkred;
+    display: none;
+}
 
 
 /* CSS POSITIONS */
